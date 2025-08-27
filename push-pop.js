@@ -3,7 +3,9 @@ console.log(number)
 number.push(10,20,30)
 
 console.log(number)
-number.pop()
-number.pop()
+const out1=number.pop()
+
+const out2 =number.pop()
 
 console.log(number)
+console.log(out1,out2)
